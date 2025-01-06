@@ -1,35 +1,35 @@
-import process from 'node:process';globalThis._importMeta_={url:import.meta.url,env:process.env};import { getRequestHeader, splitCookiesString, setResponseStatus, setResponseHeader, send, getRequestHeaders, defineEventHandler, handleCacheHeaders, createEvent, fetchWithEvent, isEvent, eventHandler, getResponseStatus, setResponseHeaders, setHeaders, sendRedirect, proxyRequest, createError, getQuery as getQuery$1, getRequestURL, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler, getRouterParam, readBody, getResponseStatusText } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspace/node_modules/h3/dist/index.mjs';
+import process from 'node:process';globalThis._importMeta_={url:import.meta.url,env:process.env};import { getRequestHeader, splitCookiesString, setResponseStatus, setResponseHeader, send, getRequestHeaders, defineEventHandler, handleCacheHeaders, createEvent, fetchWithEvent, isEvent, eventHandler, getResponseStatus, setResponseHeaders, setHeaders, sendRedirect, proxyRequest, createError, getQuery as getQuery$1, getRequestURL, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler, getRouterParam, readBody, getResponseStatusText } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspotify/node_modules/h3/dist/index.mjs';
 import { Server } from 'node:http';
 import { mkdirSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { parentPort, threadId } from 'node:worker_threads';
-import { getRequestDependencies, getPreloadLinks, getPrefetchLinks, createRenderer } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspace/node_modules/vue-bundle-renderer/dist/runtime.mjs';
-import { stringify, uneval } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspace/node_modules/devalue/index.js';
-import destr from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspace/node_modules/destr/dist/index.mjs';
-import { withQuery, joinURL, withTrailingSlash, parseURL, withoutBase, getQuery, joinRelativeURL } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspace/node_modules/ufo/dist/index.mjs';
-import { renderToString } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspace/node_modules/vue/server-renderer/index.mjs';
-import { propsToString, renderSSRHead } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspace/node_modules/@unhead/ssr/dist/index.mjs';
-import { createHooks } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspace/node_modules/hookable/dist/index.mjs';
-import { createFetch as createFetch$1, Headers as Headers$1 } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspace/node_modules/ofetch/dist/node.mjs';
-import { createCall, createFetch } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspace/node_modules/unenv/runtime/fetch/index.mjs';
-import { klona } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspace/node_modules/klona/dist/index.mjs';
-import defu, { defuFn } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspace/node_modules/defu/dist/defu.mjs';
-import { snakeCase } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspace/node_modules/scule/dist/index.mjs';
-import { createStorage, prefixStorage } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspace/node_modules/unstorage/dist/index.mjs';
-import unstorage_47drivers_47fs from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspace/node_modules/unstorage/drivers/fs.mjs';
-import { toRouteMatcher, createRouter } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspace/node_modules/radix3/dist/index.mjs';
-import { getContext } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspace/node_modules/unctx/dist/index.mjs';
+import { getRequestDependencies, getPreloadLinks, getPrefetchLinks, createRenderer } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspotify/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import { stringify, uneval } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspotify/node_modules/devalue/index.js';
+import destr from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspotify/node_modules/destr/dist/index.mjs';
+import { withQuery, joinURL, withTrailingSlash, parseURL, withoutBase, getQuery, joinRelativeURL } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspotify/node_modules/ufo/dist/index.mjs';
+import { renderToString } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspotify/node_modules/vue/server-renderer/index.mjs';
+import { propsToString, renderSSRHead } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspotify/node_modules/@unhead/ssr/dist/index.mjs';
+import { createHooks } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspotify/node_modules/hookable/dist/index.mjs';
+import { createFetch as createFetch$1, Headers as Headers$1 } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspotify/node_modules/ofetch/dist/node.mjs';
+import { createCall, createFetch } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspotify/node_modules/unenv/runtime/fetch/index.mjs';
+import { klona } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspotify/node_modules/klona/dist/index.mjs';
+import defu, { defuFn } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspotify/node_modules/defu/dist/defu.mjs';
+import { snakeCase } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspotify/node_modules/scule/dist/index.mjs';
+import { createStorage, prefixStorage } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspotify/node_modules/unstorage/dist/index.mjs';
+import unstorage_47drivers_47fs from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspotify/node_modules/unstorage/drivers/fs.mjs';
+import { toRouteMatcher, createRouter } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspotify/node_modules/radix3/dist/index.mjs';
+import { getContext } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspotify/node_modules/unctx/dist/index.mjs';
 import { AsyncLocalStorage } from 'node:async_hooks';
-import { consola } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspace/node_modules/consola/dist/index.mjs';
-import { captureRawStackTrace, parseRawStackTrace } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspace/node_modules/errx/dist/index.js';
-import { isVNode, version, unref } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspace/node_modules/vue/index.mjs';
-import { basename } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspace/node_modules/pathe/dist/index.mjs';
-import { getIcons } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspace/node_modules/@iconify/utils/lib/index.mjs';
-import { hash } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspace/node_modules/ohash/dist/index.mjs';
-import { collections } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspace/.nuxt/nuxt-icon-server-bundle.mjs';
-import { createServerHead as createServerHead$1, CapoPlugin } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspace/node_modules/unhead/dist/index.mjs';
-import { defineHeadPlugin } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspace/node_modules/@unhead/shared/dist/index.mjs';
+import { consola } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspotify/node_modules/consola/dist/index.mjs';
+import { captureRawStackTrace, parseRawStackTrace } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspotify/node_modules/errx/dist/index.js';
+import { isVNode, version, unref } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspotify/node_modules/vue/index.mjs';
+import { basename } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspotify/node_modules/pathe/dist/index.mjs';
+import { getIcons } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspotify/node_modules/@iconify/utils/lib/index.mjs';
+import { hash } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspotify/node_modules/ohash/dist/index.mjs';
+import { collections } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspotify/.nuxt/nuxt-icon-server-bundle.mjs';
+import { createServerHead as createServerHead$1, CapoPlugin } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspotify/node_modules/unhead/dist/index.mjs';
+import { defineHeadPlugin } from 'file:///Users/idrew/Desktop/git_repo/personal/nuxtspotify/node_modules/@unhead/shared/dist/index.mjs';
 
 function hasReqHeader(event, name, includes) {
   const value = getRequestHeader(event, name);
@@ -175,13 +175,13 @@ if (!window.__NUXT_DEVTOOLS_TIME_METRIC__) {
 window.__NUXT_DEVTOOLS_TIME_METRIC__.appInit = Date.now()
 `;
 
-const _FFevLhnKzw = (function(nitro) {
+const _LEGWcjviNT = (function(nitro) {
   nitro.hooks.hook("render:html", (htmlContext) => {
     htmlContext.head.push(`<script>${script}<\/script>`);
   });
 });
 
-const rootDir = "/Users/idrew/Desktop/git_repo/personal/nuxtspace";
+const rootDir = "/Users/idrew/Desktop/git_repo/personal/nuxtspotify";
 
 const appHead = {"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"},{"charset":"utf-8"}],"link":[],"style":[],"script":[],"noscript":[]};
 
@@ -200,7 +200,7 @@ const devReducers = {
   URL: (data) => data instanceof URL ? data.toString() : void 0
 };
 const asyncContext = getContext("nuxt-dev", { asyncContext: true, AsyncLocalStorage });
-const _EsSKsyr9sW = (nitroApp) => {
+const _XLbVr4gQZ9 = (nitroApp) => {
   const handler = nitroApp.h3App.handler;
   nitroApp.h3App.handler = (event) => {
     return asyncContext.callAsync({ logs: [], event }, () => handler(event));
@@ -270,8 +270,8 @@ function onConsoleLog(callback) {
 }
 
 const plugins = [
-  _FFevLhnKzw,
-_EsSKsyr9sW
+  _LEGWcjviNT,
+_XLbVr4gQZ9
 ];
 
 const inlineAppConfig = {
@@ -604,7 +604,7 @@ new Proxy(/* @__PURE__ */ Object.create(null), {
   }
 });
 
-const serverAssets = [{"baseName":"server","dir":"/Users/idrew/Desktop/git_repo/personal/nuxtspace/server/assets"}];
+const serverAssets = [{"baseName":"server","dir":"/Users/idrew/Desktop/git_repo/personal/nuxtspotify/server/assets"}];
 
 const assets = createStorage();
 
@@ -616,11 +616,11 @@ const storage = createStorage({});
 
 storage.mount('/assets', assets);
 
-storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/idrew/Desktop/git_repo/personal/nuxtspace","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/idrew/Desktop/git_repo/personal/nuxtspace/server","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/idrew/Desktop/git_repo/personal/nuxtspace/.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/idrew/Desktop/git_repo/personal/nuxtspace/.nuxt/cache","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('data', unstorage_47drivers_47fs({"driver":"fs","base":"/Users/idrew/Desktop/git_repo/personal/nuxtspace/.data/kv","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/idrew/Desktop/git_repo/personal/nuxtspotify","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/idrew/Desktop/git_repo/personal/nuxtspotify/server","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/idrew/Desktop/git_repo/personal/nuxtspotify/.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/idrew/Desktop/git_repo/personal/nuxtspotify/.nuxt/cache","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('data', unstorage_47drivers_47fs({"driver":"fs","base":"/Users/idrew/Desktop/git_repo/personal/nuxtspotify/.data/kv","ignore":["**/node_modules/**","**/.git/**"]}));
 
 function useStorage(base = "") {
   return base ? prefixStorage(storage, base) : storage;
@@ -1115,7 +1115,7 @@ function publicAssetsURL(...path) {
 
 const warnOnceSet = /* @__PURE__ */ new Set();
 const DEFAULT_ENDPOINT = "https://api.iconify.design";
-const _6MLHTY = defineCachedEventHandler(async (event) => {
+const _MQ6GlD = defineCachedEventHandler(async (event) => {
   const url = getRequestURL(event);
   if (!url)
     return createError({ status: 400, message: "Invalid icon request" });
@@ -1173,13 +1173,13 @@ const _6MLHTY = defineCachedEventHandler(async (event) => {
   // 1 week
 });
 
-const _lazy_CzmS14 = () => Promise.resolve().then(function () { return renderer$1; });
+const _lazy_wB352s = () => Promise.resolve().then(function () { return renderer$1; });
 
 const handlers = [
-  { route: '/__nuxt_error', handler: _lazy_CzmS14, lazy: true, middleware: false, method: undefined },
-  { route: '/api/_nuxt_icon/:collection', handler: _6MLHTY, lazy: false, middleware: false, method: undefined },
-  { route: '/_fonts/**', handler: _lazy_CzmS14, lazy: true, middleware: false, method: undefined },
-  { route: '/**', handler: _lazy_CzmS14, lazy: true, middleware: false, method: undefined }
+  { route: '/__nuxt_error', handler: _lazy_wB352s, lazy: true, middleware: false, method: undefined },
+  { route: '/api/_nuxt_icon/:collection', handler: _MQ6GlD, lazy: false, middleware: false, method: undefined },
+  { route: '/_fonts/**', handler: _lazy_wB352s, lazy: true, middleware: false, method: undefined },
+  { route: '/**', handler: _lazy_wB352s, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {
@@ -1444,8 +1444,8 @@ const renderSSRHeadOptions = {"omitLineBreaks":false};
 
 globalThis.__buildAssetsURL = buildAssetsURL;
 globalThis.__publicAssetsURL = publicAssetsURL;
-const getClientManifest = () => import('file:///Users/idrew/Desktop/git_repo/personal/nuxtspace/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
-const getServerEntry = () => import('file:///Users/idrew/Desktop/git_repo/personal/nuxtspace/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
+const getClientManifest = () => import('file:///Users/idrew/Desktop/git_repo/personal/nuxtspotify/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
+const getServerEntry = () => import('file:///Users/idrew/Desktop/git_repo/personal/nuxtspotify/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
 const getSSRStyles = lazyCachedFunction(() => Promise.resolve().then(function () { return styles$1; }).then((r) => r.default || r));
 const getSSRRenderer = lazyCachedFunction(async () => {
   const manifest = await getClientManifest();
